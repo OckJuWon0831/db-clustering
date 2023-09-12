@@ -1,0 +1,11 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://database-1.ccuowd2bohub.ap-northeast-2.rds.amazonaws.com:3306/master_db
+    username: admin
+    password: Snowcountry12~
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
