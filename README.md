@@ -1,6 +1,6 @@
 # 데이터베이스 다중화
 
-## DB 클러스터링을 시스템에서 적용하는 이유:
+## 시스템에 적용하는 이유:
 1. Write와 Read operation의 분리로 인해, 병렬로 처리될 수 있는 query의 수가 늘어나고, 성능을 더 좋게할 수 있다.
 2. Reliability(안정성)
 3. Availability(가용성)
